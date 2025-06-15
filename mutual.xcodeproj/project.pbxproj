@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A79CAC422DFDFC7400E068B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79CAC232DFDFC7200E068B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79CAC2A2DFDFC7200E068B7;
+			remoteInfo = mutual;
+		};
+		A79CAC4C2DFDFC7400E068B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79CAC232DFDFC7200E068B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79CAC2A2DFDFC7200E068B7;
+			remoteInfo = mutual;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79CAC2B2DFDFC7200E068B7 /* mutual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mutual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79CAC412DFDFC7400E068B7 /* mutualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mutualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79CAC4B2DFDFC7400E068B7 /* mutualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mutualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A79CACA12DFE514300E068B7 /* Exceptions for "mutual" folder in "mutual" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A79CAC2A2DFDFC7200E068B7 /* mutual */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A79CAC2D2DFDFC7200E068B7 /* mutual */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A79CACA12DFE514300E068B7 /* Exceptions for "mutual" folder in "mutual" target */,
+			);
+			path = mutual;
+			sourceTree = "<group>";
+		};
+		A79CAC442DFDFC7400E068B7 /* mutualTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mutualTests;
+			sourceTree = "<group>";
+		};
+		A79CAC4E2DFDFC7400E068B7 /* mutualUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mutualUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79CAC282DFDFC7200E068B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC3E2DFDFC7400E068B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC482DFDFC7400E068B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79CAC222DFDFC7200E068B7 = {
+			isa = PBXGroup;
+			children = (
+				A79CAC2D2DFDFC7200E068B7 /* mutual */,
+				A79CAC442DFDFC7400E068B7 /* mutualTests */,
+				A79CAC4E2DFDFC7400E068B7 /* mutualUITests */,
+				A79CAC2C2DFDFC7200E068B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79CAC2C2DFDFC7200E068B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79CAC2B2DFDFC7200E068B7 /* mutual.app */,
+				A79CAC412DFDFC7400E068B7 /* mutualTests.xctest */,
+				A79CAC4B2DFDFC7400E068B7 /* mutualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79CAC2A2DFDFC7200E068B7 /* mutual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79CAC542DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutual" */;
+			buildPhases = (
+				A79CAC272DFDFC7200E068B7 /* Sources */,
+				A79CAC282DFDFC7200E068B7 /* Frameworks */,
+				A79CAC292DFDFC7200E068B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A79CAC2D2DFDFC7200E068B7 /* mutual */,
+			);
+			name = mutual;
+			packageProductDependencies = (
+			);
+			productName = mutual;
+			productReference = A79CAC2B2DFDFC7200E068B7 /* mutual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79CAC402DFDFC7400E068B7 /* mutualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79CAC592DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutualTests" */;
+			buildPhases = (
+				A79CAC3D2DFDFC7400E068B7 /* Sources */,
+				A79CAC3E2DFDFC7400E068B7 /* Frameworks */,
+				A79CAC3F2DFDFC7400E068B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79CAC432DFDFC7400E068B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A79CAC442DFDFC7400E068B7 /* mutualTests */,
+			);
+			name = mutualTests;
+			packageProductDependencies = (
+			);
+			productName = mutualTests;
+			productReference = A79CAC412DFDFC7400E068B7 /* mutualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A79CAC4A2DFDFC7400E068B7 /* mutualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79CAC5C2DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutualUITests" */;
+			buildPhases = (
+				A79CAC472DFDFC7400E068B7 /* Sources */,
+				A79CAC482DFDFC7400E068B7 /* Frameworks */,
+				A79CAC492DFDFC7400E068B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79CAC4D2DFDFC7400E068B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A79CAC4E2DFDFC7400E068B7 /* mutualUITests */,
+			);
+			name = mutualUITests;
+			packageProductDependencies = (
+			);
+			productName = mutualUITests;
+			productReference = A79CAC4B2DFDFC7400E068B7 /* mutualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79CAC232DFDFC7200E068B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A79CAC2A2DFDFC7200E068B7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A79CAC402DFDFC7400E068B7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A79CAC2A2DFDFC7200E068B7;
+					};
+					A79CAC4A2DFDFC7400E068B7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A79CAC2A2DFDFC7200E068B7;
+					};
+				};
+			};
+			buildConfigurationList = A79CAC262DFDFC7200E068B7 /* Build configuration list for PBXProject "mutual" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79CAC222DFDFC7200E068B7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A79CAC2C2DFDFC7200E068B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79CAC2A2DFDFC7200E068B7 /* mutual */,
+				A79CAC402DFDFC7400E068B7 /* mutualTests */,
+				A79CAC4A2DFDFC7400E068B7 /* mutualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79CAC292DFDFC7200E068B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC3F2DFDFC7400E068B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC492DFDFC7400E068B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79CAC272DFDFC7200E068B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC3D2DFDFC7400E068B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79CAC472DFDFC7400E068B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79CAC432DFDFC7400E068B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79CAC2A2DFDFC7200E068B7 /* mutual */;
+			targetProxy = A79CAC422DFDFC7400E068B7 /* PBXContainerItemProxy */;
+		};
+		A79CAC4D2DFDFC7400E068B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79CAC2A2DFDFC7200E068B7 /* mutual */;
+			targetProxy = A79CAC4C2DFDFC7400E068B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A79CAC552DFDFC7400E068B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mutual/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79CAC562DFDFC7400E068B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mutual/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A79CAC572DFDFC7400E068B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A79CAC582DFDFC7400E068B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79CAC5A2DFDFC7400E068B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mutual.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mutual";
+			};
+			name = Debug;
+		};
+		A79CAC5B2DFDFC7400E068B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mutual.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mutual";
+			};
+			name = Release;
+		};
+		A79CAC5D2DFDFC7400E068B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mutual;
+			};
+			name = Debug;
+		};
+		A79CAC5E2DFDFC7400E068B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Organization.mutualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mutual;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79CAC262DFDFC7200E068B7 /* Build configuration list for PBXProject "mutual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79CAC572DFDFC7400E068B7 /* Debug */,
+				A79CAC582DFDFC7400E068B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79CAC542DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79CAC552DFDFC7400E068B7 /* Debug */,
+				A79CAC562DFDFC7400E068B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79CAC592DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79CAC5A2DFDFC7400E068B7 /* Debug */,
+				A79CAC5B2DFDFC7400E068B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79CAC5C2DFDFC7400E068B7 /* Build configuration list for PBXNativeTarget "mutualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79CAC5D2DFDFC7400E068B7 /* Debug */,
+				A79CAC5E2DFDFC7400E068B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79CAC232DFDFC7200E068B7 /* Project object */;
+}
