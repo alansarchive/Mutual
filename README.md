@@ -6,6 +6,6 @@ We basically made an app that uses AI to pair people together. An incredibly lar
 Used GPI Cloud API key to prompt AI to create hangouts based on location and personal description to create optimal relationships. 
 
 
-##Link to Demo
+## Link to Demo
 https://drive.google.com/file/d/1wDeQi6w_6gRwFgXxkze17-Ab6Ubps6Z6/view
 
